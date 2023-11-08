@@ -1,4 +1,4 @@
-alert(”Enter your valid Date of birth");
+
 function goAge() {
     const day = parseInt(document.getElementById("day").value);
     const month = parseInt(document.getElementById("month").value);
