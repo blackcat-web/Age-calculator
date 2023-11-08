@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator created by Rakesh Deep</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.png" sizes="32x32" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="parent-container">
+        <div class="container">
+            <div class="boxes box1">
+                <div class="input-field">
+                    <label for="day">DAY</label>
+                    <input type="text" name="day" id="day" placeholder="DD" class="inputs">
+                    <p class="result" style="color: red; font-size: 13px;"></p>
+                </div>
+                <div class="input-field">
+                    <label for="month">MONTH</label>
+                    <input type="text" name="months" id="month" placeholder="MM" class="inputs">
+                    <p class="result" style="color: red; font-size: 13px;"></p>
+                </div>
+                <div class="input-field">
+                    <label for="year">YEAR</label>
+                    <input type="text" name="year" id="year" placeholder="YYYY" class="inputs">
+                    <p class="result" style="color: red; font-size: 13px;"></p>
+                </div>
+            </div>
+            <div class="boxes box2">
+                <hr>
+                <button onclick="goAge()"><img src="./assets/images/icon-arrow.svg" alt=" submit-Key" width="80%" height="60%"></button>
+            </div>
+            <div class="boxes box3">
+
+                <p><span id="showYear">--</span> Years</p>
+                <p><span id="showMonth">--</span> Months</p>
+                <p><span id="showDay">--</span> Days</p>
+            </div>
+        </div>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="https://www.github.com/">Rakesh Deep</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
